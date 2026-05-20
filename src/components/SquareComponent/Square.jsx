@@ -3,7 +3,7 @@ import './Square.css';
 
 function Square(props){
     return (
-        <button class="square" onClick={props.onClick}>{props.value}</button>
+        <button className="square" onClick={props.onClick}>{props.value}</button>
     )
 };
 
